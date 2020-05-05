@@ -1,0 +1,22 @@
+[Unit]
+Description=Sprint's distributed currency daemon
+After=network.target
+
+[Service]
+User=sprintcore
+Group=sprintcore
+
+Type=forking
+PIDFile=/var/lib/sprintd/sprintd.pid
+ExecStart=/usr/bin/sprintd -daemon -pid=/var/lib/sprintd/sprintd.pid \
+-conf=/etc/sprintcore/sprint.conf -datadir=/var/lib/sprintd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

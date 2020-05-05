@@ -1,0 +1,6 @@
+usr/local/bin/sprint-qt usr/bin
+share/pixmaps/sprint32.xpm usr/share/pixmaps
+share/pixmaps/sprint16.xpm usr/share/pixmaps
+share/pixmaps/sprint128.png usr/share/pixmaps
+debian/sprint-qt.desktop usr/share/applications
+debian/sprint-qt.protocol usr/share/kde4/services/

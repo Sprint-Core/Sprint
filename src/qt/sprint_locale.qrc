@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/sprint_bg.qm</file>
+        <file alias="de">locale/sprint_de.qm</file>
+        <file alias="en">locale/sprint_en.qm</file>
+        <file alias="es">locale/sprint_es.qm</file>
+        <file alias="fi">locale/sprint_fi.qm</file>
+        <file alias="fr">locale/sprint_fr.qm</file>
+        <file alias="it">locale/sprint_it.qm</file>
+        <file alias="ja">locale/sprint_ja.qm</file>
+        <file alias="nl">locale/sprint_nl.qm</file>
+        <file alias="pl">locale/sprint_pl.qm</file>
+        <file alias="pt">locale/sprint_pt.qm</file>
+        <file alias="ru">locale/sprint_ru.qm</file>
+        <file alias="sk">locale/sprint_sk.qm</file>
+        <file alias="sv">locale/sprint_sv.qm</file>
+        <file alias="vi">locale/sprint_vi.qm</file>
+        <file alias="zh_CN">locale/sprint_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sprint_zh_TW.qm</file>
+    </qresource>
+</RCC>
