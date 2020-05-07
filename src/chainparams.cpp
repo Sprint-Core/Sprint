@@ -205,9 +205,9 @@ public:
 		assert(consensus.hashGenesisBlock == uint256S("0x000008727242e05ff03271acbb96dee81385e662845353e50618cff84f314253"));
         assert(genesis.hashMerkleRoot == uint256S("0xf51642cb91c715cee7baf96c925c1b03ff67d7e7763fc6350c0a52f6a380e541"));
 
-        vFixedSeeds.clear();
-		vSeeds.clear();
-        
+        //vFixedSeeds.clear();
+		//vSeeds.clear();
+        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
@@ -223,7 +223,7 @@ public:
         //coin type is '5'
         nExtCoinType = 5;
 
-        //vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
+        
 
         fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
