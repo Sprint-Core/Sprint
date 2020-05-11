@@ -1290,7 +1290,7 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
     CAmount nSubsidyBase;
 	
 	if(nPrevHeight < 1) {
-		nSubsidyBase = 800000;
+		nSubsidyBase = 1500000;
 	}
         else if (nPrevHeight > 12000000) {		
 		nSubsidyBase = 0; // 
@@ -1330,9 +1330,9 @@ CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 
                                                                       // mainnet:
     if(nHeight > nMNPIBlock)                  ret += blockValue/20; // 45.0% 
-    if(nHeight > nMNPIBlock+(nMNPIPeriod* 1)) ret += blockValue/20*2; // 50.0% 
-    if(nHeight > nMNPIBlock+(nMNPIPeriod* 2)) ret += blockValue/20*3; // 55.0%
-    if(nHeight > nMNPIBlock+(nMNPIPeriod* 3)) ret += blockValue/20*4; // 60.0% 
+    if(nHeight > nMNPIBlock+(nMNPIPeriod* 1)) ret += blockValue/20; // 50.0% 
+    if(nHeight > nMNPIBlock+(nMNPIPeriod* 2)) ret += blockValue/20; // 55.0%
+    if(nHeight > nMNPIBlock+(nMNPIPeriod* 3)) ret += blockValue/20; // 60.0% 
     
     return ret;
 }

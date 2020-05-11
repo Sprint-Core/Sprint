@@ -126,8 +126,8 @@ public:
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 210240; // Not used
         consensus.nMasternodePaymentsStartBlock = 500; // to be modified
-        consensus.nMasternodePaymentsIncreaseBlock = 1000; // to be modified
-        consensus.nMasternodePaymentsIncreasePeriod = 1000; // modify
+        consensus.nMasternodePaymentsIncreaseBlock = 600; // to be modified
+        consensus.nMasternodePaymentsIncreasePeriod = 100; // modify
         consensus.nInstantSendConfirmationsRequired = 6;
         consensus.nInstantSendKeepLock = 24;
         consensus.nBudgetPaymentsStartBlock = 260000; // 
@@ -207,7 +207,11 @@ public:
 
         //vFixedSeeds.clear();
 		//vSeeds.clear();
-        vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
+        
+		vSeeds.push_back(CDNSSeedData("sprintpay.net", "dnsseed.sprintpay.net"));
+		vSeeds.push_back(CDNSSeedData("sprintpay.net", "dnsseed1.sprintpay.net"));
+		
+		vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,63);
