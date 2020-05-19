@@ -1723,12 +1723,12 @@ void CMasternodeMan::WarnMasternodeDaemonUpdates()
 
     std::string strWarning;
     if (nUpdatedMasternodes != size()) {
-        strWarning = strprintf(_("Warning: At least %d of %d masternodes are running on a newer software version. Please check latest releases, you might need to update too."),
-                    nUpdatedMasternodes, size());
+      //  strWarning = strprintf(_("Warning: At least %d of %d masternodes are running on a newer software version. Please check latest releases, you might need to update too."),
+       //             nUpdatedMasternodes, size());
     } else {
         // someone was postponing this update for way too long probably
-        strWarning = strprintf(_("Warning: Every masternode (out of %d known ones) is running on a newer software version. Please check latest releases, it's very likely that you missed a major/critical update."),
-                    size());
+       // strWarning = strprintf(_("Warning: Every masternode (out of %d known ones) is running on a newer software version. Please check latest releases, it's very likely that you missed a major/critical update."),
+             //       size());
     }
 
     // notify GetWarnings(), called by Qt and the JSON-RPC code to warn the user
