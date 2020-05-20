@@ -125,9 +125,9 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 210240; // Not used
-        consensus.nMasternodePaymentsStartBlock = 1000; // to be modified
-        consensus.nMasternodePaymentsIncreaseBlock = 10001; // to be modified
-        consensus.nMasternodePaymentsIncreasePeriod = 10000; // modify
+        consensus.nMasternodePaymentsStartBlock = 1000; 
+        consensus.nMasternodePaymentsIncreaseBlock = 10001; 
+        consensus.nMasternodePaymentsIncreasePeriod = 10000; 
         consensus.nInstantSendConfirmationsRequired = 6;
         consensus.nInstantSendKeepLock = 24;
         consensus.nBudgetPaymentsStartBlock = 525000; // 
