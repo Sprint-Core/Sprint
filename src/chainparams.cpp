@@ -144,7 +144,7 @@ public:
         consensus.BIP65Height = 1; // BIP65 activated immediately
         consensus.BIP66Height = 1; // BIP66 activated immediately
         consensus.DIP0001Height = 2; // DIP0001 activated immediately
-        consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
+        consensus.powLimit = uint256S("0000ffffff000000000000000000000000000000000000000000000000000000");
 		consensus.nPowTargetTimespan = 24 * 60 * 60; //1 day
         consensus.nPowTargetSpacing = 2 * 60; // SPRX: 2 minutes
         consensus.fPowAllowMinDifficultyBlocks = false;
