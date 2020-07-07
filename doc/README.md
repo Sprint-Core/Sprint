@@ -1,7 +1,7 @@
 Sprint Core 1.0.0.1
 =====================
 
-This is the official reference wallet for Sprint digital currency and comprises the backbone of the Sprint peer-to-peer network. You can [download Sprint Core](https://www.sprint.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Sprint digital currency and comprises the backbone of the Sprint peer-to-peer network. 
 
 Running
 ---------------------
