@@ -36,11 +36,6 @@ The Sprint Core repo's [root README](/README.md) contains relevant information o
 - [BIPS](bips.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
-
-### Resources
-* Discuss on the [Sprint Forum](https://sprintpay.net/forum), in the Development & Technical Discussion board.
-
-
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
 - [Reduce Traffic](reduce-traffic.md)
