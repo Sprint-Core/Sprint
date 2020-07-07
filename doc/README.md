@@ -33,7 +33,6 @@ The following are developer notes on how to build Sprint Core on your native pla
 Development
 ---------------------
 The Sprint Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
-- [BIPS](bips.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Miscellaneous
