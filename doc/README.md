@@ -37,7 +37,6 @@ The Sprint Core repo's [root README](/README.md) contains relevant information o
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Miscellaneous
-- [Assets Attribution](assets-attribution.md)
 - [Reduce Traffic](reduce-traffic.md)
 
 License
