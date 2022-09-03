@@ -1,4 +1,4 @@
-Sprint Core staging tree 1.0.0.1
+Sprint Core staging tree 1.0.0.2
 ===============================
 
 
